@@ -19,6 +19,8 @@ catalogs:
     typescript: ^6.0.3
   docs:
     vitepress: ^2.0.0-alpha.17
+  publish:
+    changeset: ^0.2.6
   test:
     '@arethetypeswrong/core': ^0.18.2
     '@vitest/coverage-v8': ^4.1.5

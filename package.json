@@ -18,13 +18,15 @@
     "lint:fix": "eslint --fix",
     "docs:dev": "vitepress dev packages",
     "docs:build": "vitepress build packages",
-    "docs:preview": "vitepress preview packages"
+    "docs:preview": "vitepress preview packages",
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:dev",
     "@arethetypeswrong/core": "catalog:test",
     "@types/node": "catalog:types",
     "@vitest/coverage-v8": "catalog:test",
+    "changeset": "catalog:publish",
     "eslint": "catalog:dev",
     "eslint-plugin-format": "catalog:dev",
     "lint-staged": "catalog:dev",
