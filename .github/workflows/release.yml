@@ -12,6 +12,9 @@ jobs:
     name: Install Dependencies
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v6
+
       - name: Setup pnpm
         uses: ./.github/actions/setup-pnpm
 
@@ -20,6 +23,9 @@ jobs:
     needs: install
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v6
+
       - name: Setup pnpm
         uses: ./.github/actions/setup-pnpm
 
@@ -47,6 +53,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v6
+
       - name: Setup pnpm
         uses: ./.github/actions/setup-pnpm
 
