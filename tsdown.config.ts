@@ -3,7 +3,7 @@ import type { Format, UserConfig } from 'tsdown'
 import type { PackageManifest } from './meta/packages'
 import { StaleGuardRecorder } from 'tsdown-stale-guard'
 
-const externals = ['vue', /@library\/.*/]
+const externals = ['vue', /@kalu55\/.*/]
 
 export default function createTsDownConfig(pkg: PackageManifest) {
   const { build, mjs, target = 'es2018', dts, external = [] } = pkg

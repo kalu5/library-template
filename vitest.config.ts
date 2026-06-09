@@ -24,8 +24,8 @@ export default defineConfig({
   cacheDir: resolve(import.meta.dirname, 'node_modules/.vite'),
   resolve: {
     alias: {
-      '@library': resolve(import.meta.dirname, 'packages/core/index.ts'),
-      '@library/shared': resolve(
+      '@kalu55': resolve(import.meta.dirname, 'packages/core/index.ts'),
+      '@kalu55/shared': resolve(
         import.meta.dirname,
         'packages/shared/index.ts',
       ),

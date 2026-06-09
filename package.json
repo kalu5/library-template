@@ -1,5 +1,5 @@
 {
-  "name": "@library/monorepo",
+  "name": "@kalu55/monorepo",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@10.20.0",

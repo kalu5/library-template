@@ -7,12 +7,12 @@
     "module": "esnext",
     "moduleResolution": "Bundler",
     "paths": {
-      "@library/core": ["./packages/core/index.ts"],
-      "@library/core/*": ["./packages/core/*"],
-      "@library/shared": ["./packages/shared/index.ts"],
-      "@library/shared/*": ["./packages/shared/*"],
-      "@library/components": ["./packages/components/index.ts"],
-      "@library/components/*": ["./packages/components/*"]
+      "@kalu55/core": ["./packages/core/index.ts"],
+      "@kalu55/core/*": ["./packages/core/*"],
+      "@kalu55/shared": ["./packages/shared/index.ts"],
+      "@kalu55/shared/*": ["./packages/shared/*"],
+      "@kalu55/components": ["./packages/components/index.ts"],
+      "@kalu55/components/*": ["./packages/components/*"]
     },
     "resolveJsonModule": true,
     "types": ["vitest"],
