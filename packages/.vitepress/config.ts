@@ -65,13 +65,13 @@ const sidebarRoutes = packagesSidebar.reduce((acc: SidebarRoute, cur) => {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'library',
+  title: 'library-template',
   lang: 'en',
-  base: '/library/',
-  head: [['link', { rel: 'icon', href: '/library/images/logo-small.png' }]],
+  base: '/library-template/',
+  head: [['link', { rel: 'icon', href: '/library-template/images/logo-small.png' }]],
   description: 'utils library',
   themeConfig: {
-    logo: '/library/images/logo-small.png',
+    logo: '/library-template/images/logo-small.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: 'library', link: '/' }],
 
