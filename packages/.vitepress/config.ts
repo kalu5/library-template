@@ -67,10 +67,11 @@ const sidebarRoutes = packagesSidebar.reduce((acc: SidebarRoute, cur) => {
 export default defineConfig({
   title: 'Vue Utils',
   lang: 'en',
-  head: [['link', { rel: 'icon', href: '../images/logo-small.png' }]],
+  base: '/vue-utils/',
+  head: [['link', { rel: 'icon', href: '/vue-utils/images/logo-small.png' }]],
   description: 'Collection Vue Utils',
   themeConfig: {
-    logo: '/images/logo-small.png',
+    logo: '/vue-utils/images/logo-small.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: 'Vue Utils', link: '/' }],
 
