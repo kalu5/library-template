@@ -65,15 +65,15 @@ const sidebarRoutes = packagesSidebar.reduce((acc: SidebarRoute, cur) => {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Vue Utils',
+  title: 'library',
   lang: 'en',
-  base: '/vue-utils/',
-  head: [['link', { rel: 'icon', href: '/vue-utils/images/logo-small.png' }]],
-  description: 'Collection Vue Utils',
+  base: '/library/',
+  head: [['link', { rel: 'icon', href: '/library/images/logo-small.png' }]],
+  description: 'utils library',
   themeConfig: {
-    logo: '/vue-utils/images/logo-small.png',
+    logo: '/library/images/logo-small.png',
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: 'Vue Utils', link: '/' }],
+    nav: [{ text: 'library', link: '/' }],
 
     sidebar: {
       '/guide': defaultSidebar,
@@ -81,11 +81,11 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/kalu5/vue-utils' },
+      { icon: 'github', link: 'https://github.com/kalu5/library' },
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2026-PRESENT Kalu5 and Vue Utils contributors',
+      copyright: 'Copyright © 2026-PRESENT Kalu5 and library contributors',
     },
   },
   rewrites: {

@@ -1,9 +1,9 @@
 {
-  "name": "@vueutils/monorepo",
+  "name": "@library/monorepo",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@10.20.0",
-  "description": "Collection of essential vue utils",
+  "description": "Collection of essential library",
   "author": "Kalu5",
   "license": "MIT",
   "keywords": [

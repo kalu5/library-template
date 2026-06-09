@@ -24,8 +24,8 @@ export default defineConfig({
   cacheDir: resolve(import.meta.dirname, 'node_modules/.vite'),
   resolve: {
     alias: {
-      '@vueutils': resolve(import.meta.dirname, 'packages/core/index.ts'),
-      '@vueutils/shared': resolve(
+      '@library': resolve(import.meta.dirname, 'packages/core/index.ts'),
+      '@library/shared': resolve(
         import.meta.dirname,
         'packages/shared/index.ts',
       ),

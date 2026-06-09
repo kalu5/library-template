@@ -7,12 +7,12 @@
     "module": "esnext",
     "moduleResolution": "Bundler",
     "paths": {
-      "@vueutils/core": ["./packages/core/index.ts"],
-      "@vueutils/core/*": ["./packages/core/*"],
-      "@vueutils/shared": ["./packages/shared/index.ts"],
-      "@vueutils/shared/*": ["./packages/shared/*"],
-      "@vueutils/components": ["./packages/components/index.ts"],
-      "@vueutils/components/*": ["./packages/components/*"]
+      "@library/core": ["./packages/core/index.ts"],
+      "@library/core/*": ["./packages/core/*"],
+      "@library/shared": ["./packages/shared/index.ts"],
+      "@library/shared/*": ["./packages/shared/*"],
+      "@library/components": ["./packages/components/index.ts"],
+      "@library/components/*": ["./packages/components/*"]
     },
     "resolveJsonModule": true,
     "types": ["vitest"],

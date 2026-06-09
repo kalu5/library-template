@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Vue Utils"
-  text: "Collection of Vue Utils"
+  name: "library"
+  text: "Collection of library"
   tagline: "Collect commonly used hooks, functions, and components in development."
   image: "/images/logo-large.png"
   actions:
