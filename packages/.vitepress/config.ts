@@ -71,7 +71,7 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/library-template/images/logo-small.png' }]],
   description: 'utils library',
   themeConfig: {
-    logo: '/library-template/images/logo-small.png',
+    logo: '/images/logo-small.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: 'library', link: '/' }],
 
